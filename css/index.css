@@ -1,0 +1,33 @@
+:root {
+    --charcoal: #38546Aff;
+    --paynes-gray: rgb(148, 229, 238);
+    --french-gray: #AAB1B6ff;
+    --battleship-gray: #959693ff;
+    --slate-gray: #708394ff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-image: url('../images/hero-section.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar{
+    height: 70px;
+    color: white;
+    /* background-color: var(--paynes-gray); */
+}
+
+.hero-call{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
