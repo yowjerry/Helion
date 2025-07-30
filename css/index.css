@@ -1,6 +1,6 @@
 :root {
     --charcoal: #38546Aff;
-    --paynes-gray: rgb(148, 229, 238);
+    --paynes-gray: rgba(7, 22, 24, 0.399);
     --french-gray: #AAB1B6ff;
     --battleship-gray: #959693ff;
     --slate-gray: #708394ff;
@@ -23,11 +23,33 @@ body {
 #navbar{
     height: 70px;
     color: white;
-    /* background-color: var(--paynes-gray); */
+    background-color: var(--paynes-gray);
 }
 
 .hero-call{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
+    text-align: center;
+}
+.head-1{
+    font-size: 70px;
+}
+.hero-cards{
+    display: flex;
+}
+.glass{
+    background-color: rgba(255, 255, 255, 0.359);
+    box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.43);
+}
+.card-radius{
+    border-radius: 10px;
+}
+.uppercase{
+    text-transform: uppercase
+}
+.pill{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
 }
